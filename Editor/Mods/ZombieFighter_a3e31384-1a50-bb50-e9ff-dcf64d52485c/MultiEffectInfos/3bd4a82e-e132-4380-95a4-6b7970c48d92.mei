@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MultiEffectInfos UUID="3bd4a82e-e132-4380-95a4-6b7970c48d92" OwnerUUID="f835939b-2e21-4baa-8eff-1467d6c3a8d8" Name="Insect_New_Effect">
+  <EffectInfo UUID="f24124e1-eea7-49ed-b99a-f3bcbac61857" EffectResourceGuid="f593976f-0cb7-a203-3822-6fd6c3b48997" DetachSource="false" DetachTarget="false" KeepRotation="false" UseOrientDirection="false" UseDistance="false" UseScaleOverride="false" KeepScale="false" MainHand="false" OffHand="false" MinDistance="0" MaxDistance="0" BindSourceTo="SourceEntity" BindTargetTo="TargetEntity" Pivot="Target" Enabled="true" DamageType="None" VerbalIntent="None" SourceCheckEquipmentTagConditions="true" TargetCheckEquipmentTagConditions="true" />
+</MultiEffectInfos>

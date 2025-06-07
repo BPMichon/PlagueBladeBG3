@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="11fa382c-a1d2-45ba-913c-b13062365ce8">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="27403e2e-1f1b-4321-bf2e-0c62a766fc0d" />
+        <field name="Name" type="NameTableFieldDefinition" value="Plague Knights Plagues" />
+        <field name="Passives" type="StringTableFieldDefinition" value="PBF_Plague_Swarm,PBF_ZombieHit_Passive,PBF_Plague_Vines" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

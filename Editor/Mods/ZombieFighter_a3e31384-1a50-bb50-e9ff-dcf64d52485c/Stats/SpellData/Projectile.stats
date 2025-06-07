@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="67731907-4ad8-4be6-9326-d6f5b982140e">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7e1a2bc1-0e03-4b2b-8a26-b6eb19b40b8a" />
+        <field name="Name" type="NameTableFieldDefinition" value="PBF_Palgue_Insect" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="440e747f-ae0b-457d-8f98-263d4a868b39" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="CooldownType" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(2388e4a2-f3e0-4474-b18c-0d4b43af5a65,3,Projectile_AiHelper_Silence,,,INSECT_PLAGUE_AURA_2);ApplyStatus(INSECT_PLAGUE_TECHNICAL,100,1)" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="1" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);ExecuteWeaponFunctors(MainHand);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="not Self() and not Dead()" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h381e2922gffb4gfb64gd2acg8d3ac7306624" version="1" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

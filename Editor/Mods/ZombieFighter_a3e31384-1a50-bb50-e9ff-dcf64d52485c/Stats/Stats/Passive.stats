@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="3e76b74c-a5ae-4268-944a-aa9c31e2185e">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4864b240-9424-4deb-8c93-f1260cdb8226" />
+        <field name="Name" type="NameTableFieldDefinition" value="PBF_ZombieHit_Passive" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6376c5d6-b9c8-4696-be18-e2003daf30af" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2a1a3581g1ceag2927g6088g1b173cd8259c" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h094172feg3f01gb5b8gc1e3g420ec3f3dd27" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(CRAWLING_GNAW_SWITCH, 100, 3)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PBF_ZombieBlade" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="not Self() and not Dead() and not Item()" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e0caf266-77c4-47b3-86e9-d2b0f7a885ad" />
+        <field name="Name" type="NameTableFieldDefinition" value="PBF_PoisonBlade_Passive" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h04c01fa7gdf8dg2490g6d72g0a6688646605" version="3" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PBF_PoisonBlade" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(IsRangedAttack()):ApplyStatus(ALCH_TOXIN_BASIC_CONDITION);IF(IsMeleeWeaponAttack()):ApplyStatus(CAMP_DAISY_SICK);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="CharacterWeaponDamage(1, Poison);" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h53d6497ag7b79g080bg187dg69667c26595e" version="8" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1, Poison)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ed69bedb-5a71-476e-9f05-587e293e1689" />
+        <field name="Name" type="NameTableFieldDefinition" value="PBF_MorbidVitality_Passive" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h95150dedg94cbgc9a6g53d8ga2427395211f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1bc43f22gac4cg0d66gd74bg37cd631ffa52" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PBF_Immunity" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="StatusImmunity(SG_Disease);StatusImmunity(SG_Poisoned);Resistance(Poison, Immune);StatusImmunity(INSECT_PLAGUE_AURA_2)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0032cb53-f270-4b0d-a9e1-26a59443b708" />
+        <field name="Name" type="NameTableFieldDefinition" value="PBF_EffectsPassive" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0215915bg65fdg42dcgcafdg6976fadc9b57" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCreate" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PBF_VFX,100,-1)" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="382edbd7-935b-4531-9ba8-246721bd877d" />
+        <field name="Name" type="NameTableFieldDefinition" value="Poison_Charger" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h096eae54gffa5gafc7g61b9g54739773a673" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he27c60aeg3861g3938gd711g8a93c17454f0" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PBF_Poison_Charger" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Rush_Charger_Attack_Poison);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2eb62474-3f08-40ae-9244-fffae329aaa2" />
+        <field name="Name" type="NameTableFieldDefinition" value="PBF_Plague_Zombies" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h26a2d8ccg451ag8fc5g3694g6dad18875272" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h129bb4dcg9ba2g016bge8cag7de50dd843f8" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9f2a3810-dfeb-4e62-93b8-dc6a2ef8e89d" />
+        <field name="Name" type="NameTableFieldDefinition" value="PBF_Plague_Swarm" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcf1fca69g3befg428bgf786g3159e6aa0f95" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h74b9867egdcecg4702g3636g22544a0fcd76" version="2" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_PBF_Plague_Swarm)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PDF_Plague_Swarm" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1773ce6d-183a-4502-9716-399f104549c1" />
+        <field name="Name" type="NameTableFieldDefinition" value="PBF_Vile_Poisons" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h68832333g8aeagae9bgd397g9fdaa312dbab" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc61d150bg7753g7c69gc7d4gf1ab0f3da857" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PBF_Vile_Poisons" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IgnoreResistance(Poison,Resistant)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d6864fca-be55-44f6-be11-223d05d921e0" />
+        <field name="Name" type="NameTableFieldDefinition" value="PBF_Fatal_Contagion" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="haa1ca368g4590g2fe7g815dgc1cd8a18be2a" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdda67833g5fe5gab01gbad4g1e915eab8fd9" version="3" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PBF_GenericPoison" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(IsCritical()):CreateSurface(6,4,Poison);" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="21765116-a54e-4762-a15d-08908badc993" />
+        <field name="Name" type="NameTableFieldDefinition" value="PBF_PlagueFrog" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he7dcc6d7g5a10g60cag772fg24ec671d51fb" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h22470edeg1d90g5a00g646fg6286986b15df" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(FrogPlague)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6b272c66-b2d0-4d62-8e43-5ccf42de7932" />
+        <field name="Name" type="NameTableFieldDefinition" value="PBF_Plague_Vines" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h448313b5gcb2bgf68cgf036g9ff5d810a60e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf9522bbfg2309g37f9g2a91g7372fdcdf48a" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Plague_Vines" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_PBF_Plague_Circle)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="21d06430-b647-476e-83ce-bc9b39748c46" />
+        <field name="Name" type="NameTableFieldDefinition" value="PBF_Poison_Shell" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb0c95f74g1f56g16afga8b8g77ff1b1dd0d2" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hef41adf3g569eg0eb7g34f2gf68fb6780de1" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PBF_PoisonShell" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_PBF_ProtectionFromPoison)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e9251cfd-b004-4a26-820d-6b9cdcc6e100" />
+        <field name="Name" type="NameTableFieldDefinition" value="PBF_PLAGUE_RECHARGE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h14803944g3840g2cccg39fbgee781aee5210" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7f22d5f0g7494g1389g378fg04849b4bbc38" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PBF_PoisonShell" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCombatStarted" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RestoreResource(PlagueCharge,1,0)" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

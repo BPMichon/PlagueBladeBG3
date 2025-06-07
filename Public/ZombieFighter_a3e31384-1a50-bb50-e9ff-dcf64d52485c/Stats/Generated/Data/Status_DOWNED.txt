@@ -1,0 +1,6 @@
+new entry "DKF_DEATH_WARD_DOWNED"
+type "StatusData"
+data "StatusType" "DOWNED"
+using "DEATH_WARD_DOWNED"
+data "OnApplyFunctors" "RemoveStatus(DEATH_WARD);RegainHitPoints(1,Guaranteed);ApplyStatus(DFK_RESTORATION, 100, 0)"
+

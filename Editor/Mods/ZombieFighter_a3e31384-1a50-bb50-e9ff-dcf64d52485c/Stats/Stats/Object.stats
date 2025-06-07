@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="e078e210-b9ba-48e5-afe3-c5eb91ba8545">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="aa690046-8061-4d2c-9f57-6bcfa4f2cb48" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Scroll_Plague_Swarm" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b34ad76a-02bb-4a2e-b8f0-1a32913cfd0d" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

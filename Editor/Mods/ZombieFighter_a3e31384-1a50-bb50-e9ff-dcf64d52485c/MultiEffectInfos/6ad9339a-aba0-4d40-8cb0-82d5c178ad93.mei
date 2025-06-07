@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MultiEffectInfos UUID="6ad9339a-aba0-4d40-8cb0-82d5c178ad93" OwnerUUID="f835939b-2e21-4baa-8eff-1467d6c3a8d8" Name="Prepare_Poison_Effect">
+  <EffectInfo UUID="f628e795-80e4-4e58-8f6e-73a42eb520bf" EffectResourceGuid="9b8e66c4-80cc-9a71-6c5c-b8300cda0b31" DetachSource="false" DetachTarget="false" KeepRotation="false" UseOrientDirection="false" UseDistance="false" UseScaleOverride="false" KeepScale="false" MainHand="false" OffHand="false" MinDistance="0" MaxDistance="0" BindSourceTo="SourceEntity" BindTargetTo="TargetEntity" Pivot="Target" Enabled="true" DamageType="None" VerbalIntent="None" SourceBone="Dummy_Root" SourceCheckEquipmentTagConditions="true" TargetCheckEquipmentTagConditions="true" />
+</MultiEffectInfos>

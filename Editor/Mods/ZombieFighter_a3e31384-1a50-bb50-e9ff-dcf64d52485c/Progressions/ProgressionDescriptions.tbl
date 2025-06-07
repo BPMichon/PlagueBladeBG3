@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="bfa22a59-fd65-4e35-ae0f-ac960c3b5fd2">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="UUID" type="IdTableFieldDefinition" value="bc2c7ee6-60b2-419d-83dc-29c399113036" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5fcac114gd6b6ga717gb27cgf3ad71f86e79" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb7acf60cg679ag8db4g9359gce6f6deb889f" version="2" />
+        <field name="SelectorId" type="FixedStringTableFieldDefinition" value="PBF_Plagues" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

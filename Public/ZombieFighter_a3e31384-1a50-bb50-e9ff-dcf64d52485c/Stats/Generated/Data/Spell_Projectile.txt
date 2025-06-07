@@ -1,0 +1,11 @@
+new entry "Projectile_PBF_Palgue_Insect"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_HamstringShot"
+data "Cooldown" "None"
+data "SpellProperties" "GROUND:Summon(2388e4a2-f3e0-4474-b18c-0d4b43af5a65,3,Projectile_AiHelper_Silence,,,INSECT_PLAGUE_AURA_2);ApplyStatus(INSECT_PLAGUE_TECHNICAL,100,1)"
+data "AreaRadius" "1"
+data "SpellSuccess" "DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);ExecuteWeaponFunctors(MainHand);"
+data "TargetConditions" "not Self() and not Dead()"
+data "DisplayName" "h381e2922gffb4gfb64gd2acg8d3ac7306624;1"
+

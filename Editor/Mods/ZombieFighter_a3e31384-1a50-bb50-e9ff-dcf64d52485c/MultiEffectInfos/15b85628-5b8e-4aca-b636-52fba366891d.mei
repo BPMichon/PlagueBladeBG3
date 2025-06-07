@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MultiEffectInfos UUID="15b85628-5b8e-4aca-b636-52fba366891d" OwnerUUID="f835939b-2e21-4baa-8eff-1467d6c3a8d8" Name="PBF_PLAGUE_VINES_DISEASE_STATUS">
+  <EffectInfo UUID="e3dda2d6-dee2-4edb-9670-42088ab0a25c" EffectResourceGuid="06ecd194-7ab3-2574-b182-5fb12d9edbce" DetachSource="false" DetachTarget="false" KeepRotation="false" UseOrientDirection="false" UseDistance="false" UseScaleOverride="false" KeepScale="false" MainHand="false" OffHand="false" MinDistance="0" MaxDistance="0" BindSourceTo="SourceEntity" BindTargetTo="TargetEntity" Pivot="Target" Enabled="true" DamageType="None" VerbalIntent="None" SourceBone="Dummy_ChestFX" SourceCheckEquipmentTagConditions="true" TargetCheckEquipmentTagConditions="true" />
+</MultiEffectInfos>

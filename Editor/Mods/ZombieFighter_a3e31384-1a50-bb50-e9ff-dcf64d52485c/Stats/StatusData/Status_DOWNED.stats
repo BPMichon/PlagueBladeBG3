@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="030d44f1-be8c-4538-9512-08111d49292a">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c473e7d5-3c6b-44b5-b366-b486c293ac7e" />
+        <field name="Name" type="NameTableFieldDefinition" value="DKF_DEATH_WARD_DOWNED" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bb1e3ba1-dab0-4f46-8c25-a7c62cf0eae3" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(DEATH_WARD);RegainHitPoints(1,Guaranteed);ApplyStatus(DFK_RESTORATION, 100, 0)" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

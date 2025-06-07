@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="10"/>
+    <region id="PassiveLists">
+        <node id="root">
+            <children>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Plague Knights Plagues"/>
+                    <attribute id="Passives" type="LSString" value="PBF_Plague_Swarm,PBF_ZombieHit_Passive,PBF_Plague_Vines"/>
+                    <attribute id="UUID" type="guid" value="27403e2e-1f1b-4321-bf2e-0c62a766fc0d"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

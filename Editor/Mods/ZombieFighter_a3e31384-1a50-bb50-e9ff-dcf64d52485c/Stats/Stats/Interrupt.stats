@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="c496009d-a970-44a3-b882-7ed3364dc271">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f1d3f56f-25b2-4a75-9702-525202d4d57c" />
+        <field name="Name" type="NameTableFieldDefinition" value="FrogPlague" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="heea6d88eg03c3gc923g9aaeg2a91679b3e76" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1df84a9dg3e10gc84ag6cffge1d040bb5a65" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h549ccb6cgbc38gebccge67egf72b50a8da74" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveAction_WardingFlare" />
+        <field name="InterruptContext" type="EnumerationListTableFieldDefinition" value="OnPostRoll" enumeration_type_name="InterruptContext" version="1" />
+        <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Self" enumeration_type_name="InterruptContextScope" version="1" />
+        <field name="Container" type="StringTableFieldDefinition" value="YesNoDecision" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and Self(context.Target,context.Observer) and HasInterruptedAttack() and not AnyEntityIsItem() and IsRerollInterruptInteresting(context.Source) and not InterruptHasDisadvantage()" />
+        <field name="Properties" type="StringTableFieldDefinition" value="ApplyStatus(OBSERVER_TARGET,Frog_Plague_S,100,1);GROUND:Summon(4521a4d1-0940-41de-b4c2-0314b8c8f32d, Permanent,,,'FindFamiliarStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK,PACTOFTHECHAIN_FROG_RITUAL)" />
+        <field name="Cost" type="StringTableFieldDefinition" value="ReactionActionPoint:1" />
+        <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Ask;Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
+        <field name="EnableCondition" type="StringTableFieldDefinition" value="not HasStatus('SG_Polymorph') or Tagged('MINDFLAYER') or HasStatus('SG_Disguise')" />
+        <field name="EnableContext" type="EnumerationListTableFieldDefinition" value="OnStatusApplied;OnStatusRemoved" enumeration_type_name="StatsFunctorContext" version="1" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

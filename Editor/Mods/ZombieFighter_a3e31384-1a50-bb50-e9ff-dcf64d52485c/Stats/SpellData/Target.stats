@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="e988a674-28fe-49d2-a6ce-c5c1e0141f4c">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="966c684e-d58d-4b8a-8ed3-e47b46ad7f57" />
+        <field name="Name" type="NameTableFieldDefinition" value="Charger_Attack_Poison" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5956f3b0-11be-4b00-ab80-37fe6b770bf6" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, Poison); ExecuteWeaponFunctors(MainHand)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, Poison)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="47e654c9-16a7-4c83-af5d-03e75d40e604" />
+        <field name="Name" type="NameTableFieldDefinition" value="PBF_Plague_Swarmc" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="SpellSchool" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="TARGET:SwitchDeathType(Explode);GROUND:Summon(2388e4a2-f3e0-4474-b18c-0d4b43af5a65,3,Projectile_AiHelper_Silence,,,INSECT_PLAGUE_AURA_2);ApplyStatus(INSECT_PLAGUE_TECHNICAL,100,1)" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="IsTargetableCorpse() and CanStand('6c06cda2-6e13-4663-a6f6-c4bb7564c10f') and TargetSizeEqualOrSmaller(Size.Medium)  and SizeEqualOrGreater(Size.Small)" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6cf9535bgcfe0gd377g8e81ge0a27e14bb35" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd57f2691gc530g2aedgb26cgf9ba6b845607" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d4,Poison),DealDamage(1d4)" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Summon_InsectPlague_L4to5" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Loop_Summon_InsectPlague_L4to5" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Summon_AnimateDead_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Summon_AnimateDead_L1to3" />
+        <field name="VocalComponentSound" type="StringTableFieldDefinition" value="Vocal_Component_AnimateDead" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1&#xD;&#xA;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="6f42f5f3-7a5a-4441-a02e-71b0450ac4b7,,;,,;c0513845-6e0e-42e8-9a8c-baa5e2b6ead6,,;fbf20742-9dbf-475b-9ff5-42e4b08064ad,,;42aaefdc-cf9b-4249-b159-285041851f69,,;,,;20e11c98-fff9-4417-88de-5bcc2368a1bd,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Summon" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;IsLinkedSpellContainer" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="239d0263-eb26-4d7e-9683-4d7be6b6a1cf" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="111a8b8c-b395-46d0-b2f0-a10ac6f9731f" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="a082692d-ad88-44e2-ab4e-f92e69150438" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e7b38e0a-5f38-4a18-9c31-b1728a4f9cc6" />
+        <field name="Name" type="NameTableFieldDefinition" value="PBF_Plague_Swarm" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PDF_Plague_Swarm" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8f3431e7g6ce6g4c7agb465gb4fe9bf0b8c3" version="3" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3b0fc67fg62cag0cbbgf897ga09b193b3fcc" version="6" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="6f42f5f3-7a5a-4441-a02e-71b0450ac4b7,,;,,;c0513845-6e0e-42e8-9a8c-baa5e2b6ead6,,;fbf20742-9dbf-475b-9ff5-42e4b08064ad,,;42aaefdc-cf9b-4249-b159-285041851f69,,;,,;20e11c98-fff9-4417-88de-5bcc2368a1bd,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Summon" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Necromancy" enumeration_type_name="SpellSchool" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="PlagueCharge:1" />
+        <field name="VocalComponentSound" type="StringTableFieldDefinition" value="Vocal_Component_AnimateDead" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Summon_AnimateDead_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Summon_AnimateDead_L1to3" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="239d0263-eb26-4d7e-9683-4d7be6b6a1cf" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="111a8b8c-b395-46d0-b2f0-a10ac6f9731f" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="a082692d-ad88-44e2-ab4e-f92e69150438" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Poison" enumeration_type_name="Damage Type" version="1" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Summon_InsectPlague_L4to5" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="6ff1780a-855a-414c-a8bf-811251537206" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Loop_Summon_InsectPlague_L4to5" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="TARGET:SwitchDeathType(Explode);GROUND:Summon(2388e4a2-f3e0-4474-b18c-0d4b43af5a65,3,Projectile_AiHelper_Silence,,,INSECT_PLAGUE_AURA_2);ApplyStatus(INSECT_PLAGUE_TECHNICAL,100,1)" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="IsTargetableCorpse() and CanStand('6c06cda2-6e13-4663-a6f6-c4bb7564c10f') and TargetSizeEqualOrSmaller(Size.Medium)  and SizeEqualOrGreater(Size.Small)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d4,Poison),DealDamage(1d4)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d4,Poison);DealDamage(1d4,Acid)" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(INSECT_PLAGUE_2,100,3)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3fb9d623-8253-4835-a2fe-d1c72a0ab6a7" />
+        <field name="Name" type="NameTableFieldDefinition" value="PBF_ProtectionFromPoison" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(SG_Poisoned); ApplyStatus(PROTECTION_FROM_POISON, 100, -1)" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="1.5" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Self()" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PBF_PoisonShell" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he4e8502cgb523g2656g584cg0657761a2272" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbaef121bgbf95g7b7bgc252gc23cb229dbd3" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;454e3439-19f2-4c42-8773-e18cf4ee233a,,;ccdf11dc-08f7-4d7f-bca9-55cfcc8f94bd,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;2f5d8e0b-35f3-416f-99e9-1cc9d942204e,,;f2ec369f-4a3b-451e-b954-2ab0a53d51d6,," />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsMelee" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Abjuration" enumeration_type_name="SpellSchool" version="1" />
+        <field name="VocalComponentSound" type="StringTableFieldDefinition" value="Vocal_Component_ResistPoison" />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Buff" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="CycleConditions" type="StringTableFieldDefinition" value="Ally() and not Dead()" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(PROTECTION_FROM_POISON, 100, -1)" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Buff_ProtectionFromPoison_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Buff_ProtectionFromPoison_L1to3" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="7232adb5-d69c-4346-9037-0bc4b674f287" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="0b10b1d1-ca47-4686-bc1a-2dbdbbfa3e79" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="6a19b82e-e9ff-4dcf-9eaf-0a35a4a6109e" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalNonDamage" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h4508aa39g4cd5g90efg2868g36ca522cb2f9" version="1" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="6ff1780a-855a-414c-a8bf-811251537206" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerRest" enumeration_type_name="CooldownType" version="1" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

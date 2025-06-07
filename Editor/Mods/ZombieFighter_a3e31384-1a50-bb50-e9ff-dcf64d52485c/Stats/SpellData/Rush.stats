@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="bbe0e72e-fa2a-41d2-be9a-c604af561421">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ebbe90ce-99e6-4298-955a-63fdf1716660" />
+        <field name="Name" type="NameTableFieldDefinition" value="Charger_Attack_Poison" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bae6edf6-7900-476d-9407-418702fd5d54" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(1d4 + DexterityModifier , Poison);ExecuteWeaponFunctors(MainHand);CreateSurface(2,4,Poison);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="ApplyStatus(SAVED_AGAINST_HOSTILE_SPELL, 100, 0)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PBF_Poison_Charger" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h02c6de6ag860bg2158g7ccbgae988774c613" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf1b61642g00fbg5a09gae1fgf6ec33810ad9" version="4" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d4 + DexterityModifier, Poison)" />
+        <field name="HitEffect" type="GuidObjectTableFieldDefinition" value="168df269-f2d3-4cf7-8e79-113b146d9bb3" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="6ad9339a-aba0-4d40-8cb0-82d5c178ad93" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="21670c38-256a-4496-806a-4faf88a6731a" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Poison" enumeration_type_name="Damage Type" version="1" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="HasStatus('SG_Disease') or HasStatus('SG_Poisoned')" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;Movement:3" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d4 + DexterityModifier , Poison)" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

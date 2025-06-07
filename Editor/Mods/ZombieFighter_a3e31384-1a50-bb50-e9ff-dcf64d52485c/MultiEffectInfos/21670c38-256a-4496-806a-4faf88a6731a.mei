@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MultiEffectInfos UUID="21670c38-256a-4496-806a-4faf88a6731a" OwnerUUID="f835939b-2e21-4baa-8eff-1467d6c3a8d8" Name="Charging_Poison_Effect">
+  <EffectInfo UUID="6a954f84-7f47-43bd-8ae4-54a966560ab0" EffectResourceGuid="a2de6eba-939b-9545-10a7-b55ce2e985ca" DetachSource="false" DetachTarget="false" KeepRotation="false" UseOrientDirection="false" UseDistance="false" UseScaleOverride="false" KeepScale="false" MainHand="false" OffHand="false" MinDistance="0" MaxDistance="0" BindSourceTo="SourceEntity" BindTargetTo="TargetEntity" Pivot="Target" Enabled="true" DamageType="None" VerbalIntent="None" SourceCheckEquipmentTagConditions="true" TargetCheckEquipmentTagConditions="true" />
+</MultiEffectInfos>

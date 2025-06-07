@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="9fd4ac7a-fad7-424f-83df-0893eae93c38">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="79942ce9-1216-45e8-b27f-f5081161f7d5" />
+        <field name="Name" type="NameTableFieldDefinition" value="PBF_Plague_Circle_old" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3f43b97fg2906ge809g6b25g85cdaf02ff61" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he6d9f03cgb7bag0898g8707g332dd4933c53" version="2" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value=",,;,,;9186a6ca-4b03-4334-8be4-f5d9d6bc4549,,;,,;,,;,,;,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Buff" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(PBF_PLAGUE_CIRCLE,100,5);" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="2550e2bb-c9f9-4440-9cd4-146a03f2e9bc" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Plague_Vines" />
+        <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Aggressive" enumeration_type_name="SpellAnimationIntentType" version="1" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Barbarian_Wildmagic_VineGrowth" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerCombat" enumeration_type_name="CooldownType" version="1" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="e895161c-7441-441a-9cb7-33dfb7a05014" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="Requirements" type="StringTableFieldDefinition" value="Combat" />
+        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="DontChange" enumeration_type_name="SpellSheathing" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f06b5ec2-cf93-4f97-81f7-69a84d37ba6d" />
+        <field name="Name" type="NameTableFieldDefinition" value="PBF_Plague_Circle" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerCombat" enumeration_type_name="CooldownType" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(PBF_PLAGUE_CIRCLE,100,5);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Plague_Vines" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h691c8314gc229ga09eg92e1g398dcf6fa77c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0011ccbfg33d2g787bg9e4bga396c06d1087" version="2" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_Surge" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="5e57443f-284e-47b2-915e-5b6417db269c,,;925779e7-8bf6-4d56-8c4d-42c3bc01c60c,,;50398f4e-dd82-4d6a-ad43-aedd578543d9,,;1c343e00-7e6c-4f53-b588-074a3cdb9c7d,,;5bcdefbb-2194-46c2-ac77-0b2d8472a5f7,,;,,;5fdb66be-7506-411a-a7ea-c4783288aac8,,;,,;,," />
+        <field name="Requirements" type="StringTableFieldDefinition" value="Combat" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(PBF_PLAGUE_VINES_DISEASE,100,2)" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Barbarian_Wildmagic_VineGrowth" />
+        <field name="AIFlags" type="EnumerationListTableFieldDefinition" value="UseAsSupportingActionOnly" enumeration_type_name="AIFlags" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="e895161c-7441-441a-9cb7-33dfb7a05014" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="2550e2bb-c9f9-4440-9cd4-146a03f2e9bc" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Aggressive" enumeration_type_name="SpellAnimationIntentType" version="1" />
+        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="DontChange" enumeration_type_name="SpellSheathing" version="1" />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Buff" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MultiEffectInfos UUID="e895161c-7441-441a-9cb7-33dfb7a05014" OwnerUUID="f835939b-2e21-4baa-8eff-1467d6c3a8d8" Name="Plague_Vines_Prepare_Effect">
+  <EffectInfo UUID="2546aa8c-9029-4385-ad8d-ca323dfc776a" EffectResourceGuid="9f33f840-1850-45f4-225c-167ba3666421" DetachSource="false" DetachTarget="false" KeepRotation="false" UseOrientDirection="false" UseDistance="false" UseScaleOverride="false" KeepScale="false" MainHand="false" OffHand="false" MinDistance="0" MaxDistance="0" BindSourceTo="SourceEntity" BindTargetTo="TargetEntity" Pivot="Target" Enabled="true" DamageType="None" VerbalIntent="None" SourceBone="Dummy_Root" SourceCheckEquipmentTagConditions="true" TargetCheckEquipmentTagConditions="true" />
+</MultiEffectInfos>

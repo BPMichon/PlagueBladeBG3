@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="10"/>
+    <region id="MetaData">
+        <node id="root">
+            <attribute id="GameProject" type="LSString" value=""/>
+            <attribute id="Module" type="LSString" value="a3e31384-1a50-bb50-e9ff-dcf64d52485c"/>
+            <attribute id="Name" type="LSString" value="ZombieFighter"/>
+            <attribute id="UUID" type="LSString" value="75793116-3036-e5bc-d610-bd49432ad340"/>
+            <attribute id="UpdatedDependencies" type="bool" value="true"/>
+            <children>
+                <node id="Categories"/>
+            </children>
+        </node>
+    </region>
+</save>

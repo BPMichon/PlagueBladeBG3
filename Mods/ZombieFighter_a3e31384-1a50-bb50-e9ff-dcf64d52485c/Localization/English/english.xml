@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<contentList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <content contentuid="h2a1a3581g1ceag2927g6088g1b173cd8259c" version="2">Plague: Zombies</content>
+  <content contentuid="h094172feg3f01gb5b8gc1e3g420ec3f3dd27" version="2">When this character's weapon lands a hit, it also &lt;LSTag Type="Status" Tooltip="CRAWLING_GNAW_SWITCH"&gt;Infects &lt;/LSTag&gt; the target creature. Infected creatures become zombies when they die.</content>
+  <content contentuid="h88a6eefbgb438ge943g7f91ge4707c2505eb" version="1">dFK_RESTORATION</content>
+  <content contentuid="h0811d1bdg06c0ge820g62fagcb04ee83a1d9" version="1">Heal</content>
+  <content contentuid="h04c01fa7gdf8dg2490g6d72g0a6688646605" version="3">Poisonous Arsenal</content>
+  <content contentuid="h193dd5adgf23cgededgb3feg75d2ffd2ff65" version="1">DFK_RESTORATION_OVERRIDE</content>
+  <content contentuid="hcde65293ga522g9e31g6e50g3646c5387068" version="1">hEAL</content>
+  <content contentuid="h53d6497ag7b79g080bg187dg69667c26595e" version="8">Your weapon attacks also deal [1]. On a ranged attack you apply &lt;LSTag Type="Status" Tooltip="ALCH_TOXIN_BASIC_CONDITION"&gt;Poison&lt;/LSTag&gt; to them.</content>
+  <content contentuid="h95150dedg94cbgc9a6g53d8ga2427395211f" version="1">Morbid Vitality</content>
+  <content contentuid="h1bc43f22gac4cg0d66gd74bg37cd631ffa52" version="2">You are &lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to Poison damage and can't be &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poisoned&lt;/LSTag&gt; or affected by disease as the vile poisons already flows through your veins.</content>
+  <content contentuid="hc6f85bb7g6a7bgd602g51e6ga1abab645721" version="1">PBF_WeaponEffect_Status</content>
+  <content contentuid="h4a6850bdg386cg378dgd7aag7d9822b8c859" version="1">Your Weapon is Coated</content>
+  <content contentuid="h9689b493g6369g0750g238fg0bca2b3bce4a" version="1">Plague Blade</content>
+  <content contentuid="h728db5abgc43dg739fg482cgcbe73b5bad85" version="3">You wield a sword infused with a virulent plague, its very edge pulsing with corrupted life. With each swing, you channel the sickness you've mastered—infecting flesh, rotting spirit, and turning the fallen into shambling vessels of your will.</content>
+  <content contentuid="h0215915bg65fdg42dcgcafdg6976fadc9b57" version="1">PBE_VFX_Passive</content>
+  <content contentuid="h02c6de6ag860bg2158g7ccbgae988774c613" version="2">Plague-bound Pursuit</content>
+  <content contentuid="hf1b61642g00fbg5a09gae1fgf6ec33810ad9" version="4">Charge forward into a Poisoned or Diseased enemy dealing [1] . If you hit the enemy, create a surface of toxins underneath your oponnent.</content>
+  <content contentuid="h096eae54gffa5gafc7g61b9g54739773a673" version="1">Poison Charger</content>
+  <content contentuid="he27c60aeg3861g3938gd711g8a93c17454f0" version="2">Unlock the Poison Charge Ability</content>
+  <content contentuid="h381e2922gffb4gfb64gd2acg8d3ac7306624" version="1">Plague: Insects</content>
+  <content contentuid="h6cf9535bgcfe0gd377g8e81ge0a27e14bb35" version="1">Plague: Swarm</content>
+  <content contentuid="hd57f2691gc530g2aedgb26cgf9ba6b845607" version="1">Choose a corpse, it explodes into a swarm that damages in a small area.</content>
+  <content contentuid="h8f3431e7g6ce6g4c7agb465gb4fe9bf0b8c3" version="3">Plague: Swarm</content>
+  <content contentuid="h3b0fc67fg62cag0cbbgf897ga09b193b3fcc" version="6">Destroy a corpse to unleash a devastating swarm upon your enemies. Creatures within get afflicted with a Disease that deals [1] and [2].</content>
+  <content contentuid="h26a2d8ccg451ag8fc5g3694g6dad18875272" version="1">Plague: Zombies</content>
+  <content contentuid="h129bb4dcg9ba2g016bge8cag7de50dd843f8" version="1">Your weapon attacks Infect enemies on hit. Infected enemies rise as Newborn Zombies</content>
+  <content contentuid="hcf1fca69g3befg428bgf786g3159e6aa0f95" version="1">Plague: Swarm</content>
+  <content contentuid="h74b9867egdcecg4702g3636g22544a0fcd76" version="2">You can command a corpse to explode into a swarm that damges enemies in a small area.</content>
+  <content contentuid="h5fcac114gd6b6ga717gb27cgf3ad71f86e79" version="2">Blighted Path</content>
+  <content contentuid="hb7acf60cg679ag8db4g9359gce6f6deb889f" version="2">Your body decays further, granting you more control over the plague; choose 1 of the following.</content>
+  <content contentuid="h68832333g8aeagae9bgd397g9fdaa312dbab" version="1">Vile Poisons</content>
+  <content contentuid="haa1ca368g4590g2fe7g815dgc1cd8a18be2a" version="1">Fatal Contagion</content>
+  <content contentuid="hdda67833g5fe5gab01gbad4g1e915eab8fd9" version="3">On a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, use your oponnents body to spread a large Poison surface.</content>
+  <content contentuid="hc61d150bg7753g7c69gc7d4gf1ab0f3da857" version="1">Attacks you make ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Poison damage.</content>
+  <content contentuid="hefdff64cgb303g018dgb0abgb925cc41292d" version="1">Swarming, biting locusts fill the air. They deal [1] and [2] per turn, make the area &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;, and impose &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on Perception &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+  <content contentuid="h0a5aab3fg9eadg4333g0cfdg2bc097c5426a" version="1">Swarming, biting locusts fill the air. They deal [1] and [2] per turn, make the area &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;, and impose &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on Perception &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+  <content contentuid="h2b129d65ge37cg2515g1813g2fd8d09b806a" version="2">Plague Swarm</content>
+  <content contentuid="hf813707cg9a1bge02fg49a2g48d4d029a76d" version="1">Swarming with Insects</content>
+  <content contentuid="heea6d88eg03c3gc923g9aaeg2a91679b3e76" version="1">FrogPlague</content>
+  <content contentuid="h1df84a9dg3e10gc84ag6cffge1d040bb5a65" version="1">Impose &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on an attacker, possibly causing their attack to miss.</content>
+  <content contentuid="h549ccb6cgbc38gebccge67egf72b50a8da74" version="1">Has no effect on creatures that can't be &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;.</content>
+  <content contentuid="he7dcc6d7g5a10g60cag772fg24ec671d51fb" version="1">Plague: Frog</content>
+  <content contentuid="h22470edeg1d90g5a00g646fg6286986b15df" version="1">Frog</content>
+  <content contentuid="h0b464440g77f7g9fc7g7b67gcaabd73b0d90" version="1">Froggy</content>
+  <content contentuid="heee502b2g0313g9ba9gdeaeg70eb65f2b6c3" version="2">Plague: Vines</content>
+  <content contentuid="h22ad0091g041cg804dg811eg98fd73f26c4e" version="2">Surrounded by plagued vines. &lt;br&gt;&lt;br&gt;The ground within [1] of them is Difficult Terrain for everyone other than the plague blade and allies, halving &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt;.</content>
+  <content contentuid="h3f43b97fg2906ge809g6b25g85cdaf02ff61" version="2">Plague: Vines</content>
+  <content contentuid="he6d9f03cgb7bag0898g8707g332dd4933c53" version="2">Vines sprout around you for 5 turns, making the ground &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt; for anyone but you.</content>
+  <content contentuid="h691c8314gc229ga09eg92e1g398dcf6fa77c" version="1">Plague: Vines</content>
+  <content contentuid="h0011ccbfg33d2g787bg9e4bga396c06d1087" version="2">Vines sprout around you for 5 turns, making the ground &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt; for anyone but you. Enemies within the radius have to perform a Constitution saving throw, or become inflicted by Choking Blight.</content>
+  <content contentuid="h93433ce9g6284g7643g8f2fg85970a6fbbe1" version="1">Choking Blight</content>
+  <content contentuid="h344c63begb81age162g7c87gc40f3b3a8195" version="3">Sorounded by plagued vines, the affected entity has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; using Strength and Dexterity.</content>
+  <content contentuid="h1b171ab1g1e4eg2928g0412gddaac9ef2f33" version="1">Plague Check</content>
+  <content contentuid="h5e78a367g4a58gdee7g6f50g1893b1804b7d" version="1">Status to check if they fail a constitution check</content>
+  <content contentuid="h448313b5gcb2bgf68cgf036g9ff5d810a60e" version="1">Plague: Vines</content>
+  <content contentuid="hf9522bbfg2309g37f9g2a91g7372fdcdf48a" version="1">You can let out grasping plagued vines from your body, that slow and may seep strength from your enemies.</content>
+  <content contentuid="he4e8502cgb523g2656g584cg0657761a2272" version="1">Protection from Poison</content>
+  <content contentuid="hbaef121bgbf95g7b7bgc252gc23cb229dbd3" version="1">Touch a creature to neutralise all poisons affecting it, and grant it protection against poisonous influences.</content>
+  <content contentuid="h4508aa39g4cd5g90efg2868g36ca522cb2f9" version="1">Grants &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; against being &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poisoned&lt;/LSTag&gt;, and &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Poison damage.</content>
+  <content contentuid="hb0c95f74g1f56g16afga8b8g77ff1b1dd0d2" version="1">Poison Shell</content>
+  <content contentuid="hef41adf3g569eg0eb7g34f2gf68fb6780de1" version="1">You can use your blight to shield an ally. Once per long rest you can cast Protection from Poison.</content>
+  <content contentuid="hf41b27d0g637aga3fag4832g14d14014cae6" version="2">Scroll of Swarm: Plague</content>
+  <content contentuid="h4c4a50a4g108dg1cc6gcb70g03d109710ca8" version="1">Plague Charges</content>
+  <content contentuid="he282f2ebg2b0bg59f2g98a5g3746c94451c6" version="1">The resource used to cast Blighted Path</content>
+  <content contentuid="h14803944g3840g2cccg39fbgee781aee5210" version="1">Prepare the Plague</content>
+  <content contentuid="h7f22d5f0g7494g1389g378fg04849b4bbc38" version="1">On combat start, you gain 1 Plague Charge.</content>
+</contentList>

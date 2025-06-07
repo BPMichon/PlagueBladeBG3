@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="951f7f7e-76f6-4ec5-96a7-61312b04e58c">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="UUID" type="IdTableFieldDefinition" value="81561e71-a8d3-432f-9d5d-0b14a10ef487" />
+        <field name="ItemTemplateId" type="FixedStringTableFieldDefinition" value="2a0189e2-0213-493d-b376-4214b308b5be" />
+        <field name="Amount" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

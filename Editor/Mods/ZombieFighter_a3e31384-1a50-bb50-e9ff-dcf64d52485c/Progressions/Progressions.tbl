@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="53912403-fe14-4ce0-89aa-96acb1dee21a">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_62" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e068f902-9326-4d4b-9d29-d27d259c8ba7" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="ba4e707e-4bbd-4630-963b-ce2f2947f971" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Fighter" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="595e4745-bd5b-42e9-826c-40a6aebcf5ae;1be5aa5a-e221-4f0e-a1bf-be25f5d23224;e668c6f1-5149-4b10-ab7e-3637ed444066;0a01dc6b-ab1a-4c0e-8a5e-4787fe1f2caf;b722614a-303f-411a-bb19-a1882ad1f4cc" />
+        <field name="AllowImprovement" type="BoolTableFieldDefinition" value="False" />
+        <field name="IsMulticlass" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_3" />
+        <field name="UUID" type="IdTableFieldDefinition" value="09e3b5bb-a732-46c8-9a03-c49525419900" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="ba4e707e-4bbd-4630-963b-ce2f2947f971" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Fighter" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="595e4745-bd5b-42e9-826c-40a6aebcf5ae;1be5aa5a-e221-4f0e-a1bf-be25f5d23224;e668c6f1-5149-4b10-ab7e-3637ed444066;0a01dc6b-ab1a-4c0e-8a5e-4787fe1f2caf;b722614a-303f-411a-bb19-a1882ad1f4cc" />
+        <field name="AllowImprovement" type="BoolTableFieldDefinition" value="False" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="UUID" type="IdTableFieldDefinition" value="df4a9fee-6ee5-47a0-ad0f-c703c0dff9d9" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="d4f4a531-33d5-4e80-aaf9-9ced29bd5a13" />
+        <field name="FSName" type="StringTableFieldDefinition" value="PlagueBlade" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Poison_Charger;PBF_MorbidVitality_Passive;PBF_PoisonBlade_Passive;PBF_EffectsPassive" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="5a4f6d4f-48c8-46d0-b5ed-bbc3bc258569" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="d4f4a531-33d5-4e80-aaf9-9ced29bd5a13" />
+        <field name="FSName" type="StringTableFieldDefinition" value="PlagueBlade" />
+        <field name="Level" type="ByteTableFieldDefinition" value="7" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(27403e2e-1f1b-4321-bf2e-0c62a766fc0d,1,PBF_Plagues)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="PBF_Vile_Poisons;PBF_PLAGUE_RECHARGE" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(PlagueCharge,1,0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_2" />
+        <field name="UUID" type="IdTableFieldDefinition" value="59ac8042-dd8a-472a-9792-16281edc51ef" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="d4f4a531-33d5-4e80-aaf9-9ced29bd5a13" />
+        <field name="FSName" type="StringTableFieldDefinition" value="PlagueBlade" />
+        <field name="Level" type="ByteTableFieldDefinition" value="10" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="PBF_Fatal_Contagion;PBF_Poison_Shell" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

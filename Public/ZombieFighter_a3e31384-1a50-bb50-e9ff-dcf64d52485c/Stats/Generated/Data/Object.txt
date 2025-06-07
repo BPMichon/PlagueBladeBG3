@@ -1,0 +1,4 @@
+new entry "OBJ_Scroll_Plague_Swarm"
+type "Object"
+using "OBJ_Scroll_ArcaneLock"
+

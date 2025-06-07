@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="a86b6e82-0a7f-47cb-bff1-a0a6d161fa30">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_4" />
+        <field name="UUID" type="IdTableFieldDefinition" value="595e4745-bd5b-42e9-826c-40a6aebcf5ae" />
+        <field name="ParentUUID" type="GuidObjectTableFieldDefinition" value="721dfac3-92d4-41f5-b773-b7072a86232f" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="PlagueBlade" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9689b493g6369g0750g238fg0bca2b3bce4a" version="1" />
+        <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="d4f4a531-33d5-4e80-aaf9-9ced29bd5a13" />
+        <field name="PrimaryAbility" type="EnumerationTableFieldDefinition" value="Strength" enumeration_type_name="Ability" version="1" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="Ability" version="1" />
+        <field name="LearningStrategy" type="EnumerationTableFieldDefinition" value="AllChildren" enumeration_type_name="LearningStrategy" version="1" />
+        <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
+        <field name="SoundClassType" type="FixedStringTableFieldDefinition" value="Fighter" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h728db5abgc43dg739fg482cgcbe73b5bad85" version="3" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

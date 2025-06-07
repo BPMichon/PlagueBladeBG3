@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="e2a8d59b-0e34-4a7c-bf5f-db7a2bb34cde">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="87528ad4-7bdb-4bed-8b12-e2ae2764e7fa" />
+        <field name="Name" type="NameTableFieldDefinition" value="DFK_DEATH_WARD" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DownedStatus(DKF_DEATH_WARD_DOWNED,10)" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="86b94e03-b0d5-46aa-9045-88cdc5aeff47" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3684f942-0198-4558-b4ed-27c4bf0998f4" />
+        <field name="Name" type="NameTableFieldDefinition" value="DFK_RESTORATION" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h88a6eefbgb438ge943g7f91ge4707c2505eb" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0811d1bdg06c0ge820g62fagcb04ee83a1d9" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_DeathWard" />
+        <field name="StackId" type="StringTableFieldDefinition" value="DFK_RESTORATION" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisablePortraitIndicator;ApplyToDead" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="UseSpell(OWNER,Shout_FalseLife,true,true,true)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d84f54cf-147e-486e-ace2-a5b6829ca141" />
+        <field name="Name" type="NameTableFieldDefinition" value="DFK_RESTORATION_OVERRIDE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h193dd5adgf23cgededgb3feg75d2ffd2ff65" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hcde65293ga522g9e31g6e50g3646c5387068" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_DeathWard" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisablePortraitIndicator;ApplyToDead" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="UseSpell(Shout_FalseLife,true,true,true)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ab022295-75d9-499b-8f10-bfedbe1cfafe" />
+        <field name="Name" type="NameTableFieldDefinition" value="PBF_VFX" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="86b94e03-b0d5-46aa-9045-88cdc5aeff47" />
+        <field name="StackId" type="StringTableFieldDefinition" value="PBF_VFX" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="0" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableCombatlog;DisableOverhead;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7babc438-f00d-4276-a0d4-47c202af1b66" />
+        <field name="Name" type="NameTableFieldDefinition" value="Frog_Plague_S" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0b464440g77f7g9fc7g7b67gcaabd73b0d90" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PDF_Plague_Swarm" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="Summon(4521a4d1-0940-41de-b4c2-0314b8c8f32d, Permanent,,,,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK,PACTOFTHECHAIN_FROG_RITUAL);Summon(4521a4d1-0940-41de-b4c2-0314b8c8f32d, Permanent,,,,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK,PACTOFTHECHAIN_FROG_RITUAL)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0c1b525d-d413-445a-ab85-d414faaebea7" />
+        <field name="Name" type="NameTableFieldDefinition" value="PBF_PLAGUE_CIRCLE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="heee502b2g0313g9ba9gdeaeg70eb65f2b6c3" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h22ad0091g041cg804dg811eg98fd73f26c4e" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(5)" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="80805687-634c-4a29-96d7-b8eba29fdfac" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Plague_Vines" />
+        <field name="AuraRadius" type="IntegerTableFieldDefinition" value="5" />
+        <field name="AuraStatuses" type="StringTableFieldDefinition" value="TARGET:IF(Enemy() and not Self()):ApplyStatus(DIFFICULT_TERRAIN);TARGET:IF(Enemy() and not Self()):ApplyStatus(PBF_PLAGUE_CIRCLE_CHECK)" />
+        <field name="SoundStop" type="StringTableFieldDefinition" value="Spell_Status_VineGrowth" />
+        <field name="SoundStart" type="StringTableFieldDefinition" value="Spell_Status_VineGrowth" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnCombatEnded" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="aa474548-7198-465b-b5b8-534818d95a9a" />
+        <field name="Name" type="NameTableFieldDefinition" value="PBF_PLAGUE_VINES_DISEASE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h93433ce9g6284g7643g8f2fg85970a6fbbe1" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h344c63begb81age162g7c87gc40f3b3a8195" version="3" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(WeaponAttackRollAbility(Ability.Strength)):Disadvantage(AttackRoll);IF(WeaponAttackRollAbility(Ability.Dexterity)):Disadvantage(AttackRoll)" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Disease" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="StillAnimationType" type="EnumerationTableFieldDefinition" value="Suffocating" enumeration_type_name="StatusAnimationType" version="1" />
+        <field name="StillAnimationPriority" type="EnumerationTableFieldDefinition" value="Suffocating" enumeration_type_name="StillAnimPriority" version="1" />
+        <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="bb0220c6-f4eb-4367-91cd-3bfb9874d2bb" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="15b85628-5b8e-4aca-b636-52fba366891d" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PBF_Plague_Vines_Status" />
+        <field name="SoundLoop" type="StringTableFieldDefinition" value="Spell_Status_FilthFever" />
+        <field name="SoundStop" type="StringTableFieldDefinition" value="Spell_Status_FilthFever_Stop" />
+        <field name="SoundStart" type="StringTableFieldDefinition" value="Spell_Status_FilthFever_Trigger" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8a90f690-3fc4-4dd5-9125-ee870c0d71df" />
+        <field name="Name" type="NameTableFieldDefinition" value="PBF_PLAGUE_CIRCLE_CHECK" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1b171ab1g1e4eg2928g0412gddaac9ef2f33" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5e78a367g4a58gdee7g6f50g1893b1804b7d" version="1" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisablePortraitIndicator;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="OnApplyRoll" type="RollConditionsTableFieldDefinition" value="not SavingThrow(Ability.Constitution, CalculateSpellDC(Ability.Constitution, GetSummoner(context.Source)))" />
+        <field name="OnApplySuccess" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('PBF_PLAGUE_VINES_DISEASE')):ApplyStatus(PBF_PLAGUE_VINES_DISEASE,100,2)" />
+        <field name="OnTickRoll" type="RollConditionsTableFieldDefinition" value="not SavingThrow(Ability.Constitution, CalculateSpellDC(Ability.Constitution, GetSummoner(context.Source)))" />
+        <field name="OnTickSuccess" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('PBF_PLAGUE_VINES_DISEASE')):ApplyStatus(PBF_PLAGUE_VINES_DISEASE,100,2)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="84e77a0a-0ef0-45e0-80c4-94abff28fd52" />
+        <field name="Name" type="NameTableFieldDefinition" value="INSECT_PLAGUE_AURA_2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d4, Poison);DealDamage(1d4,Acid)" />
+        <field name="AuraRadius" type="IntegerTableFieldDefinition" value="3" />
+        <field name="AuraStatuses" type="StringTableFieldDefinition" value="IF(not Tagged('INVISIBLE_HELPER')):ApplyStatus(INSECT_PLAGUE_2);IF(not Tagged('INVISIBLE_HELPER')):ApplyStatus(DIFFICULT_TERRAIN)" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="3bd4a82e-e132-4380-95a4-6b7970c48d92" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2b129d65ge37cg2515g1813g2fd8d09b806a" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hefdff64cgb303g018dgb0abgb925cc41292d" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PDF_Plague_Swarm" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="InitiateCombat;BringIntoCombat" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f5f46356-39e1-4b8f-9a1b-d865a8fceac2" />
+        <field name="Name" type="NameTableFieldDefinition" value="INSECT_PLAGUE_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="23f7448a-2730-411d-a004-6932b56c19aa" />
+        <field name="OnApplySuccess" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('INSECT_PLAGUE_TECHNICAL')):DealDamage(2d4,Poison);DealDamage(1d4,Acid);ApplyStatus(INSECT_PLAGUE_TECHNICAL,100,1)" />
+        <field name="OnApplyFail" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('INSECT_PLAGUE_TECHNICAL')):DealDamage(2d4/2,Poison);DealDamage(1d4/2,Acid);ApplyStatus(INSECT_PLAGUE_TECHNICAL,100,1)" />
+        <field name="OnTickSuccess" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('INSECT_PLAGUE_TECHNICAL')):DealDamage(2d4,Poison);DealDamage(1d4,Acid)" />
+        <field name="OnTickFail" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('INSECT_PLAGUE_TECHNICAL')):DealDamage(2d4/2,Poison);DealDamage(1d4/2,Acid);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf813707cg9a1bge02fg49a2g48d4d029a76d" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0a5aab3fg9eadg4333g0cfdg2bc097c5426a" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d4, Poison);DealDamage(1d4,Acid)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PDF_Plague_Swarm" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(2d4,Poison);DealDamage(1d4,Acid)" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec;SG_Disease" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

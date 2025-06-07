@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MultiEffectInfos UUID="80805687-634c-4a29-96d7-b8eba29fdfac" OwnerUUID="f835939b-2e21-4baa-8eff-1467d6c3a8d8" Name="Plague_Circle_Effect">
+  <EffectInfo UUID="5bc64140-f2c2-4cfd-b6b6-c5b4d25890aa" EffectResourceGuid="c161ee29-29a2-7399-4468-34a24bc09d06" DetachSource="false" DetachTarget="false" KeepRotation="false" UseOrientDirection="false" UseDistance="false" UseScaleOverride="false" KeepScale="false" MainHand="false" OffHand="false" MinDistance="0" MaxDistance="0" BindSourceTo="SourceEntity" BindTargetTo="TargetEntity" Pivot="Target" Enabled="true" DamageType="None" VerbalIntent="None" SourceBone="Dummy_Root" SourceCheckEquipmentTagConditions="true" TargetCheckEquipmentTagConditions="true" />
+</MultiEffectInfos>
