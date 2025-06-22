@@ -68,7 +68,10 @@
         <field name="UUID" type="IdTableFieldDefinition" value="2eb62474-3f08-40ae-9244-fffae329aaa2" />
         <field name="Name" type="NameTableFieldDefinition" value="PBF_Plague_Zombies" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h26a2d8ccg451ag8fc5g3694g6dad18875272" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h129bb4dcg9ba2g016bge8cag7de50dd843f8" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h129bb4dcg9ba2g016bge8cag7de50dd843f8" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PBF_ZombieWeapon" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_PBF_Plague_Zombies);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -143,9 +146,9 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h14803944g3840g2cccg39fbgee781aee5210" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7f22d5f0g7494g1389g378fg04849b4bbc38" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="PBF_PoisonShell" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCombatStarted" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RestoreResource(PlagueCharge,1,0)" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(Self()):RestoreResource(PlagueCharge,1,0)" />
       </fields>
     </stat_object>
   </stat_objects>

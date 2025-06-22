@@ -10,5 +10,25 @@
         <field name="SelectorId" type="FixedStringTableFieldDefinition" value="PBF_Plagues" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_115" />
+        <field name="UUID" type="IdTableFieldDefinition" value="9609c6a6-03de-4545-8f73-d860d8b30255" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8c6634c3ge315g21fbg16ffgb9e5ca369f13" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2b8d71a2g9594g86a7gd068gdcbb75ada3b0" version="2" />
+        <field name="Type" type="FixedStringTableFieldDefinition" value="ActionResource" />
+        <field name="ParamMatch" type="FixedStringTableFieldDefinition" value="0:PlagueCharge" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="32911630-c83a-4df5-87f5-0b9d77d25e72" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="haecaeb92gcd99gfdeag1ca4g49d871abe804" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4faa163ag9f31gf88ag3f52g6a655231f8d3" version="1" />
+        <field name="ExactMatch" type="FixedStringTableFieldDefinition" value="PlagueBlade" />
+        <field name="ProgressionTableId" type="GuidTableFieldDefinition" value="d4f4a531-33d5-4e80-aaf9-9ced29bd5a13" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

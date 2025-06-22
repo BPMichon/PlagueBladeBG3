@@ -110,3 +110,21 @@ data "OnTickSuccess" "IF(not HasStatus('INSECT_PLAGUE_TECHNICAL')):DealDamage(2d
 data "OnTickFail" "IF(not HasStatus('INSECT_PLAGUE_TECHNICAL')):DealDamage(2d4/2,Poison);DealDamage(1d4/2,Acid);"
 data "StatusGroups" "SG_RemoveOnRespec;SG_Disease"
 
+new entry "PBF_Recharge"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h1cc65083gf552g239eg4103g597f46381163;1"
+data "Description" "h8bcca577gf0b1gfce1g148agb4e36c1e70a3;1"
+data "Icon" "PDF_Plague_Swarm"
+data "TickType" "StartTurn"
+data "OnApplyFunctors" "RestoreResource(PlagueCharge,1,0)"
+
+new entry "PBF_PLAGUE_ZOMBIES"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "hebd52ec2gcbe4g6b0cg1554gb3e0449b3730;1"
+data "Description" "h7d983929gdab9g4ae6gbc24g7d375867b2d3;1"
+data "Icon" "PBF_ZombieBlade"
+data "TickType" "StartTurn"
+data "Passives" "PBF_ZombieHit_Passive;"
+

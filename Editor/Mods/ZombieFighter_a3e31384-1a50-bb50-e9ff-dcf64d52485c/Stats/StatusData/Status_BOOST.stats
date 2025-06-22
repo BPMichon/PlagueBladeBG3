@@ -133,5 +133,27 @@
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec;SG_Disease" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fba0586a-f7e8-44aa-8290-797a244ebf6a" />
+        <field name="Name" type="NameTableFieldDefinition" value="PBF_Recharge" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1cc65083gf552g239eg4103g597f46381163" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PDF_Plague_Swarm" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="RestoreResource(PlagueCharge,1,0)" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8bcca577gf0b1gfce1g148agb4e36c1e70a3" version="1" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9ecb76c3-4fab-47d4-ac72-a6942cd569dc" />
+        <field name="Name" type="NameTableFieldDefinition" value="PBF_PLAGUE_ZOMBIES" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hebd52ec2gcbe4g6b0cg1554gb3e0449b3730" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7d983929gdab9g4ae6gbc24g7d375867b2d3" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PBF_ZombieBlade" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="Passives" type="StringTableFieldDefinition" value="PBF_ZombieHit_Passive;" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

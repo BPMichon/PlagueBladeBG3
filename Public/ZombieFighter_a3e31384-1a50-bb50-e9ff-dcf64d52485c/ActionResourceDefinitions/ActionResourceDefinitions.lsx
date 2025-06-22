@@ -7,12 +7,11 @@
                 <node id="ActionResourceDefinition">
                     <attribute id="Description" type="TranslatedString" handle="he282f2ebg2b0bg59f2g98a5g3746c94451c6" version="1"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="h4c4a50a4g108dg1cc6gcb70g03d109710ca8" version="1"/>
-                    <attribute id="IsSpellResource" type="bool" value="true"/>
+                    <attribute id="IsHidden" type="bool" value="false"/>
                     <attribute id="Name" type="FixedString" value="PlagueCharge"/>
                     <attribute id="ReplenishType" type="FixedString" value="Rest"/>
                     <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
                     <attribute id="UUID" type="guid" value="a15e076f-ab25-4d92-a217-b5c385db1f4a"/>
-                    <attribute id="UpdatesSpellPowerLevel" type="bool" value="true"/>
                 </node>
             </children>
         </node>

@@ -29,7 +29,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="f06b5ec2-cf93-4f97-81f7-69a84d37ba6d" />
         <field name="Name" type="NameTableFieldDefinition" value="PBF_Plague_Circle" />
-        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerCombat" enumeration_type_name="CooldownType" version="1" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="CooldownType" version="1" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(PBF_PLAGUE_CIRCLE,100,5);" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
         <field name="Icon" type="StringTableFieldDefinition" value="Plague_Vines" />
@@ -40,7 +40,7 @@
         <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_Surge" />
         <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="5e57443f-284e-47b2-915e-5b6417db269c,,;925779e7-8bf6-4d56-8c4d-42c3bc01c60c,,;50398f4e-dd82-4d6a-ad43-aedd578543d9,,;1c343e00-7e6c-4f53-b588-074a3cdb9c7d,,;5bcdefbb-2194-46c2-ac77-0b2d8472a5f7,,;,,;5fdb66be-7506-411a-a7ea-c4783288aac8,,;,,;,," />
         <field name="Requirements" type="StringTableFieldDefinition" value="Combat" />
-        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(PBF_PLAGUE_VINES_DISEASE,100,2)" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(PBF_PLAGUE_VINES_DISEASE,100,5)" />
         <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Barbarian_Wildmagic_VineGrowth" />
         <field name="AIFlags" type="EnumerationListTableFieldDefinition" value="UseAsSupportingActionOnly" enumeration_type_name="AIFlags" version="1" />
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="e895161c-7441-441a-9cb7-33dfb7a05014" />
@@ -49,7 +49,31 @@
         <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Aggressive" enumeration_type_name="SpellAnimationIntentType" version="1" />
         <field name="Sheathing" type="EnumerationTableFieldDefinition" value="DontChange" enumeration_type_name="SpellSheathing" version="1" />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Buff" enumeration_type_name="VerbalIntent" version="1" />
-        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="PlagueCharge:1;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="49ff8e9b-69c1-4fa7-8381-b08eab509016" />
+        <field name="Name" type="NameTableFieldDefinition" value="PBF_Plague_Zombies" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h11fb6b90g2758g35bcgbe7cg224c9fa0f975" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h700f236ag8e57ge0dage449ge89769e05a17" version="2" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="PlagueCharge:1;" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="e895161c-7441-441a-9cb7-33dfb7a05014" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="8398c2e5-f499-4696-bd01-4cafc73cc1ee" />
+        <field name="AIFlags" type="EnumerationListTableFieldDefinition" value="UseAsSupportingActionOnly" enumeration_type_name="AIFlags" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PBF_ZombieWeapon" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;,,;35b644cf-5c13-4407-9dc1-23bf4309216e,,;823e3ddf-c670-41ef-b7b4-9f4a4e38300b,,;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Buff" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Aggressive" enumeration_type_name="SpellAnimationIntentType" version="1" />
+        <field name="Requirements" type="StringTableFieldDefinition" value="Combat" />
+        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="DontChange" enumeration_type_name="SpellSheathing" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(PBF_PLAGUE_ZOMBIES,100,3);" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_Surge" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
       </fields>
     </stat_object>
   </stat_objects>
